@@ -1,3 +1,6 @@
 import { defineConfig } from 'vite';
 
-export default defineConfig({});
+// GitHub Pages project site: https://kalpanathmajhi.github.io/jsontosvg/
+export default defineConfig({
+  base: '/jsontosvg/',
+});
