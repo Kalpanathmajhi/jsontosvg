@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON → GIF / MP4</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>JSON → GIF / MP4</h1>
+        <p class="subtitle">
+          Describe frames as JSON, preview on canvas, export animation.
+        </p>
+      </header>
+
+      <main class="layout">
+        <section class="panel editor-panel">
+          <div class="panel-header">
+            <h2>Animation JSON</h2>
+            <div class="panel-actions">
+              <button type="button" id="btn-sample" class="btn secondary">
+                Load sample
+              </button>
+              <button type="button" id="btn-validate" class="btn secondary">
+                Validate
+              </button>
+            </div>
+          </div>
+          <textarea id="json-input" spellcheck="false"></textarea>
+          <p id="status" class="status" role="status"></p>
+        </section>
+
+        <section class="panel preview-panel">
+          <div class="panel-header">
+            <h2>Preview</h2>
+            <div class="panel-actions">
+              <button type="button" id="btn-play" class="btn">Play</button>
+              <button type="button" id="btn-stop" class="btn secondary">
+                Stop
+              </button>
+            </div>
+          </div>
+          <div class="canvas-wrap">
+            <canvas id="preview"></canvas>
+          </div>
+          <dl class="meta" id="meta"></dl>
+
+          <div class="export">
+            <h3>Export</h3>
+            <div class="export-row">
+              <label>
+                FPS
+                <input type="number" id="export-fps" min="1" max="60" value="12" />
+              </label>
+              <label>
+                Quality
+                <select id="export-quality">
+                  <option value="1">High</option>
+                  <option value="2" selected>Medium</option>
+                  <option value="4">Fast (smaller)</option>
+                </select>
+              </label>
+            </div>
+            <div class="export-buttons">
+              <button type="button" id="btn-gif" class="btn primary">
+                Download GIF
+              </button>
+              <button type="button" id="btn-mp4" class="btn primary">
+                Download MP4
+              </button>
+            </div>
+            <p id="export-status" class="status"></p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

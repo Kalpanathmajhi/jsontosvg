@@ -1,0 +1,150 @@
+{
+  "width": 640,
+  "height": 400,
+  "fps": 12,
+  "background": "#1a1d27",
+  "frames": [
+    {
+      "shapes": [
+        {
+          "type": "text",
+          "x": 320,
+          "y": 48,
+          "text": "JSON → GIF / MP4",
+          "fontSize": 28,
+          "fill": "#e8eaef",
+          "textAlign": "center"
+        },
+        {
+          "type": "rect",
+          "x": 80,
+          "y": 120,
+          "width": 120,
+          "height": 120,
+          "rx": 16,
+          "fill": "#6c9eff"
+        },
+        {
+          "type": "circle",
+          "cx": 320,
+          "cy": 180,
+          "r": 60,
+          "fill": "#5fd49a"
+        },
+        {
+          "type": "circle",
+          "cx": 520,
+          "cy": 180,
+          "r": 40,
+          "fill": "#ff7b7b"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "type": "text",
+          "x": 320,
+          "y": 48,
+          "text": "JSON → GIF / MP4",
+          "fontSize": 28,
+          "fill": "#e8eaef",
+          "textAlign": "center"
+        },
+        {
+          "type": "rect",
+          "x": 200,
+          "y": 120,
+          "width": 120,
+          "height": 120,
+          "rx": 16,
+          "fill": "#6c9eff"
+        },
+        {
+          "type": "circle",
+          "cx": 320,
+          "cy": 180,
+          "r": 60,
+          "fill": "#5fd49a"
+        },
+        {
+          "type": "circle",
+          "cx": 520,
+          "cy": 180,
+          "r": 55,
+          "fill": "#ff7b7b"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "type": "text",
+          "x": 320,
+          "y": 48,
+          "text": "JSON → GIF / MP4",
+          "fontSize": 28,
+          "fill": "#e8eaef",
+          "textAlign": "center"
+        },
+        {
+          "type": "rect",
+          "x": 320,
+          "y": 120,
+          "width": 120,
+          "height": 120,
+          "rx": 16,
+          "fill": "#6c9eff"
+        },
+        {
+          "type": "circle",
+          "cx": 320,
+          "cy": 180,
+          "r": 60,
+          "fill": "#5fd49a"
+        },
+        {
+          "type": "circle",
+          "cx": 440,
+          "cy": 180,
+          "r": 70,
+          "fill": "#ff7b7b"
+        }
+      ]
+    },
+    {
+      "shapes": [
+        {
+          "type": "text",
+          "x": 320,
+          "y": 48,
+          "text": "Export ready!",
+          "fontSize": 28,
+          "fill": "#e8eaef",
+          "textAlign": "center"
+        },
+        {
+          "type": "rect",
+          "x": 440,
+          "y": 120,
+          "width": 120,
+          "height": 120,
+          "rx": 16,
+          "fill": "#6c9eff"
+        },
+        {
+          "type": "circle",
+          "cx": 200,
+          "cy": 180,
+          "r": 50,
+          "fill": "#5fd49a"
+        },
+        {
+          "type": "polygon",
+          "points": [320, 280, 280, 340, 360, 340],
+          "fill": "#f0c14b"
+        }
+      ]
+    }
+  ]
+}
